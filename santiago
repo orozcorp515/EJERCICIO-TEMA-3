@@ -1,0 +1,23 @@
+//Primera Parte
+public class main {
+public static void main(String[] args)
+    suma(a:5, b:10, c:15);
+}
+public static void suma(int a, int b, int c) {
+    System.out.println(a + b +c)
+}
+
+
+//Segunda Parte
+public static void main(String[] args){
+    Coche miCoche = new Coche();
+    miCoche.SumaPuerta();
+    System.out.println(miCoche.puertas);
+}
+
+Class Coche{
+   public int puertas = 4
+   
+   public void SumaPuerta() {
+         this.puertas ++;
+}
